@@ -4,5 +4,9 @@ class Contacts {
   String email;
   String photo;
 
-  Contacts(this.name, this.number, this.email, this.photo);
+  Contacts(
+      {required this.name,
+      required this.number,
+      required this.email,
+      required this.photo});
 }

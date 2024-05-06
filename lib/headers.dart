@@ -1,4 +1,7 @@
 export 'package:flutter/material.dart';
+export 'package:flutter/services.dart';
+export 'package:url_launcher/url_launcher.dart';
+export 'package:shared_preferences/shared_preferences.dart';
 export 'package:countact_diary_app/main.dart';
 export 'package:countact_diary_app/models/contacts_modal.dart';
 export 'package:countact_diary_app/app.dart';
@@ -6,3 +9,6 @@ export 'package:countact_diary_app/controller/contacts_controller.dart';
 export 'package:provider/provider.dart';
 export 'package:countact_diary_app/pages/home_page/home_page.dart';
 export 'package:countact_diary_app/app_route.dart';
+export 'package:countact_diary_app/pages/add_contact_page/add_contact_page.dart';
+export 'package:countact_diary_app/controller/stepper_controller.dart';
+export 'pages/contact_info_page/contact_info_page.dart';
